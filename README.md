@@ -45,23 +45,39 @@ Para probar la aplicación cliente, es necesario configurar correctamente la red
 
 A continuación, se documenta el correcto funcionamiento de los 4 ejercicios solicitados en la práctica:
 
-### 📍 Ejercicio 1: Estado del Servidor
+###  Ejercicio 1: Estado del Servidor
 Demostración de la conexión exitosa al iniciar la app. Petición GET al endpoint `/`.
 
-![Estado del Servidor](Recursos/1.png)
+<details>
+  <summary>📸 Click para ver captura</summary>
+  <img src="Recursos/1.png" alt="Estado del Servidor">
+</details>
 
-### 📍 Ejercicio 2: Flujo de Registro de Usuarios
+###  Ejercicio 2: Flujo de Registro de Usuarios
 Validación de la creación de un usuario en la base de datos y manejo de restricciones. Petición POST a `/register`.
 
-![Registro Exitoso](Recursos/3.png)
-![Usuario Duplicado](Recursos/3.5.png)
+<details>
+  <summary>📸 Click para ver Registro Exitoso</summary>
+  <img src="Recursos/3.png" alt="Registro Exitoso">
+</details>
 
-### 📍 Ejercicio 3: Autenticación (Login)
+<details>
+  <summary>📸 Click para ver Error Usuario Duplicado</summary>
+  <img src="Recursos/3.5.png" alt="Usuario Duplicado">
+</details>
+
+###  Ejercicio 3: Autenticación (Login)
 Comprobación de credenciales y redirección de vistas. Petición POST a `/login`.
 
-![Login Exitoso](Recursos/2.png)
+<details>
+  <summary>📸 Click para ver Login Exitoso</summary>
+  <img src="Recursos/2.png" alt="Login Exitoso">
+</details>
 
-### 📍 Ejercicio 4: Tolerancia a Fallos de Red
-Manejo de excepciones en Retrofit. Se simuló la caída del servidor deteniendo el contenedor de Docker para comprobar que la app no se cierra abruptamente.
+###  Ejercicio 4: Tolerancia a Fallos de Red
+Manejo de excepciones en Retrofit. Se simuló la caída del servidor deteniendo el contenedor de Docker.
 
-![Error de red](Recursos/4.jpeg)
+<details>
+  <summary>📸 Click para ver Error de Red</summary>
+  <img src="Recursos/4.jpeg" alt="Error de red">
+</details>
