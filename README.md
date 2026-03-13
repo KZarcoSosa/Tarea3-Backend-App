@@ -41,28 +41,27 @@ Para probar la aplicación cliente, es necesario configurar correctamente la red
 
 ---
 
-##  Panel de Evidencias (Capturas de Pantalla)
+##  Ejercicios (Capturas de Pantalla)
 
 A continuación, se documenta el correcto funcionamiento de los 4 ejercicios solicitados en la práctica:
 
 ### 📍 Ejercicio 1: Estado del Servidor
 Demostración de la conexión exitosa al iniciar la app. Petición GET al endpoint `/`.
 
-> 
+![Estado del Servidor](Recursos/1.png)
 
 ### 📍 Ejercicio 2: Flujo de Registro de Usuarios
 Validación de la creación de un usuario en la base de datos y manejo de restricciones. Petición POST a `/register`.
 
-> *(Arrastra y suelta aquí la captura de un registro exitoso)*
-> *(Arrastra y suelta aquí la captura del mensaje de error "usuario ya existe")*
+![Registro Exitoso](Recursos/3.png)
+![Usuario Duplicado](Recursos/3.5.png)
 
 ### 📍 Ejercicio 3: Autenticación (Login)
 Comprobación de credenciales y redirección de vistas. Petición POST a `/login`.
 
-> *(Arrastra y suelta aquí la captura entrando a la pantalla de bienvenida)*
-> *(Arrastra y suelta aquí la captura mostrando el error de credenciales incorrectas)*
+![Login Exitoso](Recursos/2.png)
 
 ### 📍 Ejercicio 4: Tolerancia a Fallos de Red
 Manejo de excepciones en Retrofit. Se simuló la caída del servidor deteniendo el contenedor de Docker para comprobar que la app no se cierra abruptamente.
 
-> *(Arrastra y suelta aquí la captura mostrando el Toast con el mensaje de "Error de red")*
+![Error de red](Recursos/4.jpeg)
